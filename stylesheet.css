@@ -1,0 +1,127 @@
+body {
+    background-color: #00008b;
+}
+article
+{
+    display: block;
+    
+}
+section {
+    border: 3px ridge #a5a5fd;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.MainHeader {
+    font-size: 1.75em;
+    text-shadow: 1px 0.1em 0.1em #00008b;
+    padding: 20px;
+    width: 41.5em;
+}
+.Layout {
+    display: flex;
+    columns: 2;
+    border: rgb(2, 105, 105) dashed 2px;
+    background-color: #00008b3a;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    
+}
+li {
+    padding: 2%;
+}
+.GroceryCategory
+{
+
+    background-color: #00ffff;
+    color: #7700ff;
+    h2{
+        color: #fffb00;
+        background-color: #30305280;
+        padding: 20px;
+        width: 70rem;
+        border: 3px ridge #a5a5fd;
+        box-shadow:rgb(32, 0, 139) 0px 0px 1.8px 5px;
+        font-size: 1.75em;
+        text-shadow: 1px 0.1em 0.1em #00008b;
+    }
+    width:fit-content;
+    overflow: hidden;
+    overflow-y: scroll;
+    ul { 
+       padding: 30px
+    }
+}
+.GroceryImg {
+
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #ff00e665;
+    background-size: contain;
+    margin: 10px;
+    overflow: hidden;
+    img {
+        width: 150px;
+        height: 150px;
+
+    }
+    text-align: center;
+    h4 {
+        position: relative;
+        margin: 0;
+        text-indent: 0%;
+        color: #560a81;
+    }
+    h3 {
+        background-color: #00008b;
+        border: #00008b;
+    }
+
+}
+.GroceryCategory:nth-child(odd)
+{
+    background-color: #00ff73;
+    color: #0400ff;
+}
+table,th,td
+{ 
+    border: 0.1rem ridge #7700ff;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.493);
+
+}
+th {
+    background-color: #00008b;
+    padding: 1.5rem;
+}
+td {
+    background-color: #e2ff7b;
+    padding: 1.5rem;
+}
+td:nth-child(odd) {
+    background-color: #74f6a8;
+}
+.WhereToLookImg {
+    background-color: #01012c;
+    h3 {
+        background-color: #f2ff00;
+        padding: 1rem;
+        border-radius: 15px;
+        border: #066dfd ridge 3px;
+    }
+}
+img {
+    width: 250px;
+    object-fit: scale-down;
+    padding: 2%;
+    margin: 5%;
+    border: 3px ridge #01012c;
+    background-color: #00008ba0;
+            height: auto;
+        display: block;
+        background-size: contain;
+        padding: 1.5rem;
+        margin: 10px;
+}
